@@ -1,0 +1,78 @@
+.bg-contact {
+  height: 100vh;
+  background-image: conic-gradient(from 180deg, #a47e1b, #3e300a);
+  position: relative;
+}
+
+#contact-title {
+  font-size: 4.2rem;
+  color: #c9a227;
+}
+
+#contact-info {
+  position: absolute;
+  width: 800px;
+  height: 400px;
+  bottom: 120px;
+  left: 60px;
+  color: #003566;
+}
+
+#contact-form {
+  position: absolute;
+  width: 800px;
+  height: 400px;
+  bottom: 120px;
+  right: 60px;
+}
+
+input[type="text"],
+[type="email"] {
+  background: transparent;
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  padding: 12px;
+}
+::placeholder {
+  color: white;
+}
+select {
+  background: transparent !important;
+  border: 1px solid black !important;
+  color: #000 !important;
+}
+
+textarea {
+  background: transparent;
+  border: 1px solid black;
+  color: #fff;
+  padding-left: 12px;
+}
+
+.item-contact {
+  padding: 10px;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+/* MOBILE */
+
+.input-small {
+  font-size: 16px;
+  padding: 0 12px;
+}
+
+.send-small {
+  width: 100px;
+}
+
+.icon-small {
+  margin: 0 100px 0 35px;
+}
+.list-contact {
+  gap: 100px;
+}
+
+#contact-title-small {
+  color: #c9a227;
+}
