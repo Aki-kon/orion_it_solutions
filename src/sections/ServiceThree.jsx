@@ -1,10 +1,11 @@
-import NavBar from "../components/NavBar";
 const ServiceThree = () => {
   return (
     <>
-      <div id="servicio3" className="container-fluid bg-service-one">
-        <NavBar></NavBar>
-        <div className="container content d-none d-xl-block">
+      <div
+        id="servicio3"
+        className="container-fluid bg-service-one d-flex justify-content-center align-items-center"
+      >
+        <div className="container content d-none d-xl-block h-75">
           <div className="row gap-4">
             <div className="col">
               <div className="card-image3"></div>

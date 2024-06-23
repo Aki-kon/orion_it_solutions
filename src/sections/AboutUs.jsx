@@ -1,10 +1,8 @@
 import "../css/about.css";
-import NavBar from "../components/NavBar";
 const AboutUs = () => {
   return (
     <>
       <div id="aboutus" className="container-fluid bg-about-us">
-        <NavBar></NavBar>
         <div className="container-fluid medium image-container d-none d-lg-flex justify-content-center align-items-center">
           <h1 id="about-title" className=" text-center w-75">
             Nuestra misión es ofrecer un servicio de alta calidad en el que
@@ -57,11 +55,12 @@ const AboutUs = () => {
         </div>
         <div className="about-small d-lg-none">
           <h1 id="about-title-sm" className="text-center inter-bolder">
-            We’re a team full of passion
+            Estamos conformados por un equipo lleno de pasión por su trabajo
           </h1>
           <p id="about-paragraph-sm" className="px-3 w-100 dm-sans-italic ">
-            Streamline and manage your departments service delivery end-to-end,
-            and enable digital transformation in a matter of days, not years.
+            Nos comprometemos a siempre buscar el mejor resultado que satisfaga
+            las necesidades de nuestros clientes y que cumpla con nuestros
+            estándares.
           </p>
           <div className="about-img-small"></div>
           <div className="row gap-2 d-flex justify-content-center py-4">

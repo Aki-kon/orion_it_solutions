@@ -1,14 +1,10 @@
 import "../css/service_one.css";
-import NavBar from "../components/NavBar";
 const ServiceOne = () => {
   return (
     <>
       <div id="servicio1" className="container-fluid bg-service-one">
-        <NavBar></NavBar>
-        <h1 className="text-white text-center inter-bold m-2 m-xl-5">
-          Servicios
-        </h1>
-        <div className="container d-none d-lg-block py-4">
+        <h1 className="text-white text-center inter-bold p-5">Servicios</h1>
+        <div className="container d-none d-lg-block py-5">
           <div className="row gap-5">
             <div className="col">
               <div className="card-image1"></div>

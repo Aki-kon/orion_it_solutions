@@ -1,12 +1,13 @@
 import "../css/service_one.css";
-import NavBar from "../components/NavBar";
 const ServiceTwo = () => {
   return (
     <>
-      <div id="servicio2" className="container-fluid bg-service-one">
-        <NavBar></NavBar>
-        <div className="container content d-none d-xl-block mt-5">
-          <div className="row gap-4">
+      <div
+        id="servicio2"
+        className="container-fluid bg-service-one d-flex justify-content-center align-items-center"
+      >
+        <div className="container content d-none d-xl-block h-75">
+          <div className="row gap-5">
             <div className="col">
               <div className="d-flex flex-column">
                 <h1 className="text-white text-center fs-1 inter-bolder">

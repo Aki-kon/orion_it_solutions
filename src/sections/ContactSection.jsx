@@ -1,5 +1,4 @@
 import "../css/contact.css";
-import NavBar from "../components/NavBar";
 import TestComponent from "./TestComponent";
 import useForm from "../hooks/useForm";
 const ContactSection = () => {
@@ -16,12 +15,11 @@ const ContactSection = () => {
   return (
     <>
       <div id="contact" className="bg-contact">
-        <NavBar></NavBar>
-        <div className="d-none d-lg-block ">
+        <div className="d-none d-lg-block py-5">
           <h1 id="contact-title" className="p-5 w-75 inter-bold">
             Hablemos sobre como solucionar tus problemas IT
           </h1>
-          <div className="container-fluid d-flex justify-content-center">
+          <div className="container-fluid d-flex justify-content-center mt-3">
             <TestComponent></TestComponent>
           </div>
           <div className="container-fluid d-flex justify-content-center">
@@ -63,7 +61,7 @@ const ContactSection = () => {
               </li>
             </ul>
           </div>
-          <div id="contact-form" className="pt-3">
+          <div id="contact-form" className="pt-3 z-3">
             <form
               action=""
               className="d-flex flex-column gap-3 px-5"
@@ -167,7 +165,9 @@ const ContactSection = () => {
                   <span className="border border-4 p-4 rounded icon-small">
                     <i className="bi bi-envelope-at-fill fs-1"></i>
                   </span>
-                  <span className="fs-3 text-white dm-sans-bold">...</span>
+                  <span className="fs-3 text-white dm-sans-bold">
+                    orionit@gmail.com
+                  </span>
                 </li>
               </ul>
             </div>

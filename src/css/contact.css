@@ -2,6 +2,7 @@
   height: 100vh;
   background-image: conic-gradient(from 180deg, #a47e1b, #3e300a);
   position: relative;
+  z-index: -1;
 }
 
 #contact-title {

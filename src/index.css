@@ -1,3 +1,6 @@
+body {
+  position: relative;
+}
 .inter-bold {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -44,4 +47,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#navigationbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0;
 }
