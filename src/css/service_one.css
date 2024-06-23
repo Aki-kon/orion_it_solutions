@@ -43,7 +43,10 @@
 .content {
   padding-top: 50px;
 }
-
+#services-title {
+  font-size: 4rem;
+  color: #fff;
+}
 /* Service Mobile 1*/
 
 .card-service1-small {

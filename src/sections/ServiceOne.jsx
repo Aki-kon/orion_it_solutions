@@ -3,7 +3,9 @@ const ServiceOne = () => {
   return (
     <>
       <div id="servicio1" className="container-fluid bg-service-one">
-        <h1 className="text-white text-center inter-bold p-5">Servicios</h1>
+        <h1 id="services-title" className=" text-center inter-bold p-5">
+          SERVICIOS
+        </h1>
         <div className="container d-none d-lg-block py-5">
           <div className="row gap-5">
             <div className="col">
